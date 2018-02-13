@@ -15,25 +15,23 @@
     
     <!-- Le menu -->
     
-    <nav id="menu">        
-        <div class="element_menu">
-            <h3>Titre menu</h3>
-            <ul>
-                <li><a href="page1.html">Lien</a></li>
-                <li><a href="page2.html">Lien</a></li>
-                <li><a href="page3.html">Lien</a></li>
-            </ul>
-        </div>    
-    </nav>
+    <?php include("menu.php"); ?>
     
     <!-- Le corps -->
-    
+    <a href="bonjour.php?nom=Dupont&prenom=Jean&repeter=8">Dis-moi bonjour !</a>
     <div id="corps">
         <h1>Mon super site</h1>
-        
         <p>
             Bienvenue sur mon super site !<br />
             Vous allez adorer ici, c'est un site génial qui va parler de... euh... Je cherche encore un peu le thème de mon site. :-D
+			
+			<form method="post" action="cible.php">
+ 
+			<p>prenom
+				<input type="text" name="prenom" />
+				<input type="submit" value="Valider" />
+			</p>
+		</form>
         </p>
     </div>
     
