@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<script src="bootstrap/js/jquery.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
         <title>pokejol</title>
         <meta charset="utf-8" />
     </head>
