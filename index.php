@@ -2,38 +2,37 @@
 <html>
     <head>
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/tuto.css" rel="stylesheet">
 		<script src="bootstrap/js/jquery.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
         <title>pokejol</title>
         <meta charset="utf-8" />
     </head>
-    <body>
-		<header>
-			<nav>
-			<ul>
-				<li><a href="index.html">Accueil</a></li>
-				<li><a href="forum.html">Forum</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		</header>
-        <h2>Page de test</h2>
-        
-        <p>
-            Cette page contient du code HTML avec des balises PHP.<br />
-            <?php /* Insérer du code PHP ici */ ?>
-            Voici quelques petits tests :
-        </p>
-        
-        <ul>
-        <li style="color: blue;">Texte en bleu</li>
-        <li style="color: red;">Texte en rouge</li>
-        <li style="color: green;">Texte en vert</li>
-        </ul>
-        
-        <?php
-        /* Encore du PHP
-        Toujours du PHP */
-        ?>
-    </body>
+   <body>
+    <div class="container">
+
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li class="active"> <a href="#">Accueil</a> </li>
+            <li> <a href="#">Liens</a> </li>
+            <li> <a href="#">Témoignages</a> </li>
+            <li> <a href="#">Références</a> </li>
+          </ul>
+          <form class="navbar-form navbar-right inline-form">
+            <div class="form-group">
+              <input type="search" class="input-sm form-control" placeholder="Recherche">
+              <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+            </div>
+          </form>
+        </div>
+      </nav>
+      
+		<div class="container-fluid">
+			<img class="img-responsive" src="img/kyogre.jpg" alt="">
+		</div>
+      
+    </div>
+  </body>
+</html>
 </html>
