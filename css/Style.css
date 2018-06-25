@@ -1,0 +1,39 @@
+
+.img-pokeball:hover {
+	opacity:0.7;
+	width: 52%;
+	height: auto;
+}
+
+.img-pokeball{
+	opacity:1;
+	width: 52%;
+	height: auto;
+}
+
+.petite-marge {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.texte
+{
+	font-size: 24px;
+    font-weight: bold;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+}
+
+@font-face { 
+    font-family: 'Amble-Bold-webfont';
+    src: url('Amble-Bold-webfont.eot');
+    src: url('Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Amble-Bold-webfont.woff') format('woff'),
+         url('Amble-Bold-webfont.ttf') format('truetype'),
+         url('Amble-Bold-webfont.svg#cac_champagneregular') format('svg');
+}
+
+p{
+	font-family: 'Amble-Bold-webfont', Arial, serif;
+}
