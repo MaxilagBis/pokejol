@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <div class="row">
 <nav class="navbar-inverse">
@@ -22,3 +23,15 @@
 </div>
       
 
+=======
+<nav id="menu">
+  <div class="element_menu">
+    <h3>Titre menu</h3>
+    <ul>
+      <li><a href="page1.html">Lien</a></li>
+      <li><a href="page2.html">Lien</a></li>
+      <li><a href="page3.html">Lien</a></li>
+    </ul>
+  </div>
+</nav>
+>>>>>>> 829e541e856805a1c95d6235b344f9426b556a73
