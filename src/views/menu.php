@@ -21,3 +21,6 @@
     <img class="img-responsive" src="web/img/banniere.png">
   </div>
 </div>
+
+
+<?php require("src/controllers/PokemonController.php"); ?>
