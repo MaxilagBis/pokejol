@@ -1,7 +1,7 @@
 <?php
-require("src/models/Pokemon.php");
+require_once __DIR__."/../models/Pokemon.php";
 
 $req = getPokemon();
 
-require("src/views/Pokemon/view.php");
+require_once __DIR__."/../views/Pokemon/view.php";
 ?>

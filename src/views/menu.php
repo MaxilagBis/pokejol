@@ -5,6 +5,7 @@
         <li class="active"> <a href="#">Accueil</a> </li>
         <li> <a href="#">Couverture</a> </li>
         <li> <a href="#">Règles</a> </li>
+        <li> <a href="src/views/Pokemon/liste.php">Liste</a> </li>
         <li> <a href="#">À propos</a> </li>
       </ul>
 
@@ -21,6 +22,3 @@
     <img class="img-responsive" src="web/img/banniere.png">
   </div>
 </div>
-
-
-<?php require("src/controllers/PokemonController.php"); ?>

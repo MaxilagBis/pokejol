@@ -1,5 +1,5 @@
 <?php
-include("config/parameters.php");
+include __DIR__."/../../config/parameters.php";
 
 function getPokemon()
 {

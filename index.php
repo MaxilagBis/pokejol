@@ -13,7 +13,7 @@
 <body>
   <div class="container-fluid">
 
-    <?php include("src/views/menu.php"); ?>
+    <?php require_once "src/views/menu.php"; ?>
 
     <div class="col-xs-12 col-sm-12 col-lg-12">
       <h2 class="text-center"><strong>Concevez votre équipe JOL !</strong></h2>
