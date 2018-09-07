@@ -18,6 +18,6 @@
   </nav>
 
   <div class="mon-image">
-    <img class="img-responsive" src="img/banniere.png">
+    <img class="img-responsive" src="web/img/banniere.png">
   </div>
 </div>
