@@ -12,8 +12,8 @@ function getPokemon()
   {
     die("Erreur : ".$e->getMessage());
   }
-  
-  $req = $bdd->query("SELECT name FROM pokemon_species_names WHERE local_language_id = 5");
+
+  $req = $bdd->query("SELECT pokemon_species_id as id, name FROM pokemon_species_names WHERE local_language_id = 5");
 
   return $req;
 }
